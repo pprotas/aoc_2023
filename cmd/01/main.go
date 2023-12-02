@@ -1,6 +1,7 @@
 package main
 
 import (
+	"aoc_2023/internal/input"
 	"bufio"
 	"flag"
 	"fmt"
@@ -8,8 +9,6 @@ import (
 	"strconv"
 	"strings"
 	"unicode"
-
-	"aoc_2023/internal/input"
 )
 
 var mapping = map[string]string{
